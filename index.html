@@ -2,11 +2,98 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Чекбокс</title>
+    <style>
+        body {margin: 0;
+        padding: 25px;
+        font-family: sans-serif;
+        }
+/* Option */
+.option {
+display: block;
+margin-bottom: 0.25em;
+}
+/* Check */
+.check{
+padding-left: 1.2em;
+}
+.check__input{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+   /* -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; */
+}
+.check__box{
+    position: absolute;
+    margin-top: 0.2em;
+    margin-left: -1em;
+    width:0.6em;
+    height: 0.6em;
+    border-radius: 0.05em;
+    background-color: white;
+    box-shadow: 0 0 0 0.1em #4A90E2;
+    /* margin-left: -1.2em;
+    width: 1em;
+    height: 1em;
+    background-image: url(image/off.svg); */
+   /* background-image: url("data:image/svg+xml, %3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"%3E%3Crect x="3" y="3" width="14" height="14" fill="%23fff" stroke="%234a90e2" stroke-width="2" rx="2 /%3E%3C/svg%3E"); */
+}
+
+/* Checked */
+
+.check__input:checked + .check__box {
+    /* background-image: url(image/on.svg);  */
+    background-color:#4A90E2;
+    background-image: url(images/check.svg); /* Нужна картинка галочки */
+}
+
+/* Focused */
+.check__input:focus + .check__box {
+   /* background-image: url(image/off-focused.svg);  */
+   box-shadow: 
+   0 0 0 0.1em #4A90E2,
+   0 0 0 0.2em #7ED321;
+}
+/*.check__input:checked:focus + .check__box {
+   background-image: url(image/on-focused.svg);  
+} */
+
+/* Disabled */
+.check__input:disabled + .check__box {
+   /* background-image: url(image/off-disabled.svg);  */
+   box-shadow: 0 0 0 0.1em #9B9B9B;
+}
+.check__input:checked:disabled + .check__box {
+   /* background-image: url(image/on-disabled.svg);  8*/
+   background-color: #9B9B9B;
+}
+
+    </style>
 </head>
 <body>
-    <h1>Hello</h1>
-    
+    <label class="check option">
+<input class="check__input" type="checkbox">
+<span class="check__box"></span>
+Первый
+    </label>
+    <label class="check option">
+ <input class="check__input" type="checkbox" checked>
+ <span class="check__box"></span>
+        Второй
+            </label>
+    <label class="check option">
+ <input class="check__input" type="checkbox" disabled>
+ <span class="check__box"></span>
+        Третий
+    </label>
+    <label class="check option">
+<input class="check__input" type="checkbox" checked disabled>
+<span class="check__box"></span>
+         Четвертый
+    <label>
 </body>
 </html>
