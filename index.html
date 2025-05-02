@@ -1,46 +1,99 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
 <head>
-    <meta charset="utf-8">
-    <title>Чекбокс: Инлайном</title>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>First Project</title>
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <label class="check option">
-        <input class="check__input" type="checkbox">
-        <svg class="check__box" viewBox="0 0 20 20">
-            <rect class="check__focus" width="20" height="20" rx="4"/>
-            <rect class="check__square" x="3" y="3" width="14" height="14" rx="2"/>
-            <polyline class="check__mark" points="5 9 9 13 15 6"/>
-        </svg>
-        Первый
-    </label>
-    <label class="check option">
-        <input class="check__input" type="checkbox" checked>
-        <svg class="check__box" viewBox="0 0 20 20">
-            <rect class="check__focus" width="20" height="20" rx="4"/>
-            <rect class="check__square" x="3" y="3" width="14" height="14" rx="2"/>
-            <polyline class="check__mark" points="5 9 9 13 15 6"/>
-        </svg>
-        Второй
-    </label>
-    <label class="check option">
-        <input class="check__input" type="checkbox" disabled>
-        <svg class="check__box" viewBox="0 0 20 20">
-            <rect class="check__focus" width="20" height="20" rx="4"/>
-            <rect class="check__square" x="3" y="3" width="14" height="14" rx="2"/>
-            <polyline class="check__mark" points="5 9 9 13 15 6"/>
-        </svg>
-        Третий
-    </label>
-    <label class="check option">
-        <input class="check__input" type="checkbox" checked disabled>
-        <svg class="check__box" viewBox="0 0 20 20">
-            <rect class="check__focus" width="20" height="20" rx="4"/>
-            <rect class="check__square" x="3" y="3" width="14" height="14" rx="2"/>
-            <polyline class="check__mark" points="5 9 9 13 15 6"/>
-        </svg>
-        Четвёртый
-    </label>
+<header>
+        <div class="header__content">
+    <div class="menu">
+        <div class="menu__block1">
+            <div class="block1__iconMenu">
+                <img class="block1__icon" src="icons/burger.svg" alt="Иконка меню">
+            </div>
+            <div class="block1__logoMenu">
+                <a class="block1__logo" href="/"></a>
+                <img class="block1__logo-image" src="icons/Group.svg" alt="Логотип">
+            </div>
+            <div class="block1__dividerMenu"></div>
+        </div>
+        <div class="menu__block2">
+            <div class="menu__container1">
+            <div class="block2__iconPhoneMenu">
+                <img class="block2__iconPhone" src="icons/call.svg" alt="Иконка телефона">
+            </div>
+            <div class="block2__iconChatMenu">
+                <img class="block2__iconChat" src="icons/chat.svg" alt="Иконка чата">
+            </div>
+            <div class="block2__iconProfileMenu">
+                <img class="block2__iconProfile" src="icons/profile.svg" alt="Иконка профиля">
+            </div>
+                </div>
+                <div class="block2__dividerMenu"></div>
+                 <div class="menu__container2">
+                 <div class="block2__iconSettingsMenu">
+                <img class="block2__iconSettings" src="icons/repair.svg" alt="Иконка настройки">
+            </div>
+                <div class="block2__iconSearchMenu">
+                <img class="block2__iconSearch" src="icons/checkstatus.svg" alt="Иконка поиска">
+            </div>
+                </div>
+        </div>
+    </div>
+        </div>
+</header>
+<main>
+    <div class="section1">
+        <div class="main__container1">
+        <div class="section1__highlight">
+            <img class="highlightIcon" src="./icons/highlight.svg" alt="Хайлайтер">
+        </div>
+        <h1>Услуги и сервисы</h1>
+            </div>
+        <div class="main__container2">
+            <div class="block3__iconSettingsMenu">
+                <div class="iconSettingsMenu__text">Оставить заявку</div>
+                <img class="block3__iconSettings" src="icons/repair.svg" alt="Иконка настройки">
+            </div>
+            <div class="block3__iconSearchMenu">
+                <div class="iconSearchMenu__text">Статус ремонта</div>
+                <img class="block3__iconSearch" src="icons/checkstatus.svg" alt="Иконка поиска">
+            </div>
+        </div>
+    </div>
+    <div class="section2">
+        <div class="section2__button_brands">Ремонтируемые бренды</div>
+        <div class="section2__button_devices">Ремонтируемые устройства</div>
+        <div class="section2__button_prices">Цены на услуги</div>
+        <div class="section2__button_address">Адреса сервисных центров</div>
+        <div class="section2__button_specialPrices">Специальные цены</div>
+        <div class="section2__button_reviews">Отзывы</div>
+    </div>
+    <div class="section3">
+<div class="section3__container">
+        <div class="section3__text">
+            <p class="text1">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
+            <p class="text2"> Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера<span>, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</span></p>
+        </div>
+        <div class="section3__buttonBlock">
+            <div class="buttonBlock__imgExpand">
+                <img class="imgExpandIcon" src="./icons/expand.svg" alt="Стрелки отображения последующего текста">
+            </div>
+            <div class="buttonBlock__text">Читать далее</div>
+        </div>
+    </div>
+            <div class="section3__image">
+                <img class="section3__image__img1" src="./images/_MG_3223.jpg" alt="Изображение логотипа компании">
+                <img class="section3__image__img2" src="./images/_MG_3223_plan.jpg" alt="Изображение логотипа компании">
+                <img class="section3__image__img3" src="./images/_MG_3223_desk.jpg" alt="Изображение логотипа компании">
+        </div>
+    </div>
+</main>
 </body>
 </html>
