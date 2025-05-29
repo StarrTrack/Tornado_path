@@ -5,75 +5,250 @@
   <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
-  <title>Блок 1.4: Продвинутая стилизация</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <title>Блок-1.5: JavaScript</title>
 </head>
 <body>
-<div class="wrapper">
-  <header>
-    <div class="menu__block1">
-      <div class="block1__burgerMenu">
-        <img class="block1__burger" src="icons/burger.svg" alt="Иконка крестик">
+  <img src="../icons/line.png" width="100%" alt="Линия">
+  <div class="block1">
+    <p class="one__block1">Ремонт техники различных брендов</p>
+  </div>
+  <main>
+    <div class="container_1">
+      <div class="container_1__part_1">
+      <div class="box">
+      <img class="box__image" src="../icons/lenovo.svg" alt="Логотип Lenovo">
+        <div class="box__link">
+        <a href="#">
+          <img src="../icons/go.svg" alt="Иконка стрелки перехода">
+        </a>
+        </div>
       </div>
-      <div class="block1__logoMenu">
-        <a class="block1__logo" href="#"></a>
-        <img class="block1_logoImages" src="icons/logo.svg" alt="Логотип">
+      <div class="box">
+        <img class="box__image" src="../icons/samsung.svg" alt="Логотип Lenovo">
+        <div class="box__link">
+          <a href="#">
+            <img src="../icons/go.svg" alt="Иконка стрелки перехода">
+          </a>
+        </div>
       </div>
-      <div class="block1__searchMenu">
-        <img class="block1__search" src="icons/search.svg" alt="Иконка поиска">
-        <a href="#" class="card__button button-open"></a>
+      <div class="box">
+        <img class="box__image" src="../icons/apple.svg" alt="Логотип Lenovo">
+        <div class="box__link">
+          <a href="#">
+            <img src="../icons/go.svg" alt="Иконка стрелки перехода">
+          </a>
+        </div>
       </div>
-      <!-- Форма для ввода текста в поисковой строке -->
-      <!--<section class="modal">
-      <div class="modal__content">
-        <form action="#" method="post" enctype="multipart/form-data">
-          <div>
-           <input class="form__search" tabindex="1" type="text" name="userSearch" placeholder="Поиск по сайту">
+      <div class="box">
+        <img class="box__image" src="../icons/viewsonic.svg" alt="Логотип Lenovo">
+        <div class="box__link">
+          <a href="#">
+            <img src="../icons/go.svg" alt="Иконка стрелки перехода">
+          </a>
+        </div>
+      </div>
+      <div class="box">
+        <img class="box__image" src="../icons/bosch.svg" alt="Логотип Lenovo">
+        <div class="box__link">
+          <a href="#">
+            <img src="../icons/go.svg" alt="Иконка стрелки перехода">
+          </a>
+        </div>
+      </div>
+      <div class="box">
+        <img class="box__image" src="../icons/hp.svg" alt="Логотип Lenovo">
+        <div class="box__link">
+          <a href="#">
+            <img src="../icons/go.svg" alt="Иконка стрелки перехода">
+          </a>
+        </div>
+      </div>
+      <div class="box box_7">
+        <img class="box__image" src="../icons/acer.svg" alt="Логотип Lenovo">
+        <div class="box__link">
+          <a href="#">
+            <img src="../icons/go.svg" alt="Иконка стрелки перехода">
+          </a>
+        </div>
+      </div>
+      <div class="box box_8">
+        <img class="box__image" src="../icons/sony.svg" alt="Логотип Lenovo">
+        <div class="box__link">
+          <a href="#">
+            <img src="../icons/go.svg" alt="Иконка стрелки перехода">
+          </a>
+        </div>
+      </div>
+      </div>
+      <div class="container_1__part_2">
+      <div class="box box_7">
+        <img class="box__image" src="../icons/acer.svg" alt="Логотип Lenovo">
+        <div class="box__link">
+          <a href="#">
+            <img src="../icons/go.svg" alt="Иконка стрелки перехода">
+          </a>
+        </div>
+      </div>
+      <div class="box box_8">
+        <img class="box__image" src="../icons/sony.svg" alt="Логотип Lenovo">
+        <div class="box__link">
+          <a href="#">
+            <img src="../icons/go.svg" alt="Иконка стрелки перехода">
+          </a>
+        </div>
+      </div>
+      <div class="box box_9">
+        <img class="box__image" src="../icons/lenovo.svg" alt="Логотип Lenovo">
+        <div class="box__link">
+          <a href="#">
+            <img src="../icons/go.svg" alt="Иконка стрелки перехода">
+          </a>
+        </div>
+      </div>
+      <div class="box box_10">
+        <img class="box__image" src="../icons/samsung.svg" alt="Логотип Lenovo">
+        <div class="box__link">
+          <a href="#">
+            <img src="../icons/go.svg" alt="Иконка стрелки перехода">
+          </a>
+        </div>
+      </div>
+      <div class="box">
+        <img class="box__image" src="../icons/apple.svg" alt="Логотип Lenovo">
+        <div class="box__link">
+          <a href="#">
+            <img src="../icons/go.svg" alt="Иконка стрелки перехода">
+          </a>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="container_2">
+      <img class="image__btn" src="../icons/expand_up.svg" alt="Иконка стрелки вниз">
+      <button class="btn">Показать все</button>
+    </div>
+    <div class="swiper_container">
+    <!-- Slider main container -->
+    <div class="swiper mySwiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <div class="box">
+            <img class="box__image" src="../icons/lenovo.svg" alt="Логотип Lenovo">
+            <div class="box__link">
+              <a href="#">
+                <img src="../icons/go.svg" alt="Иконка стрелки перехода">
+              </a>
+            </div>
           </div>
-          </form>
-        <button class="modal__button button-close" type="button">Закрыть</button>
+        </div>
+        <div class="swiper-slide">
+          <div class="box">
+            <img class="box__image" src="../icons/samsung.svg" alt="Логотип Lenovo">
+            <div class="box__link">
+              <a href="#">
+                <img src="../icons/go.svg" alt="Иконка стрелки перехода">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="box">
+            <img class="box__image" src="../icons/apple.svg" alt="Логотип Lenovo">
+            <div class="box__link">
+              <a href="#">
+                <img src="../icons/go.svg" alt="Иконка стрелки перехода">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="box">
+            <img class="box__image" src="../icons/viewsonic.svg" alt="Логотип Lenovo">
+            <div class="box__link">
+              <a href="#">
+                <img src="../icons/go.svg" alt="Иконка стрелки перехода">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide"><div class="box">
+          <img class="box__image" src="../icons/bosch.svg" alt="Логотип Lenovo">
+          <div class="box__link">
+            <a href="#">
+              <img src="../icons/go.svg" alt="Иконка стрелки перехода">
+            </a>
+          </div>
+        </div></div>
+        <div class="swiper-slide"><div class="box">
+          <img class="box__image" src="../icons/hp.svg" alt="Логотип Lenovo">
+          <div class="box__link">
+            <a href="#">
+              <img src="../icons/go.svg" alt="Иконка стрелки перехода">
+            </a>
+          </div>
+        </div></div>
+        <div class="swiper-slide">
+          <div class="box">
+            <img class="box__image" src="../icons/acer.svg" alt="Логотип Lenovo">
+            <div class="box__link">
+              <a href="#">
+                <img src="../icons/go.svg" alt="Иконка стрелки перехода">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="box">
+            <img class="box__image" src="../icons/sony.svg" alt="Логотип Lenovo">
+            <div class="box__link">
+              <a href="#">
+                <img src="../icons/go.svg" alt="Иконка стрелки перехода">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="box">
+            <img class="box__image" src="../icons/lenovo.svg" alt="Логотип Lenovo">
+            <div class="box__link">
+              <a href="#">
+                <img src="../icons/go.svg" alt="Иконка стрелки перехода">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="box">
+            <img class="box__image" src="../icons/samsung.svg" alt="Логотип Lenovo">
+            <div class="box__link">
+              <a href="#">
+                <img src="../icons/go.svg" alt="Иконка стрелки перехода">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="box">
+            <img class="box__image" src="../icons/apple.svg" alt="Логотип Lenovo">
+            <div class="box__link">
+              <a href="#">
+                <img src="../icons/go.svg" alt="Иконка стрелки перехода">
+              </a>
+            </div>
+          </div>
       </div>
-      </section>-->
-    </div>
-  </header>
-<main>
-  <div class="section">
-    <div class="section__button_repair">Ремонт техники</div>
-    <div class="section__button_services">Услуги и сервисы</div>
-    <div class="section__button_clients">Корпоративным клиентам</div>
-    <div class="section__button_sellers">Продавцам техники</div>
-    <div class="section__button_partners">Партнерам</div>
-    <div class="section__button_manufacturers">Производителям</div>
-    <div class="section__button_serviceCenters">Наши сервисные центры</div>
-    <div class="section__button_contacts">Контакты</div>
-  </div>
-</main>
-<footer>
-  <div class="container">
-    <div class="menu__block2">
-      <div class="block2__callMenu">
-        <img class="block2__call" src="icons/call.svg" alt="Иконка телефона">
      </div>
-    <div class="block2__chatMenu">
-      <img class="block2__chat" src="icons/chat.svg" alt="Иконка чата">
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
     </div>
-    <div class="block2__profileMenu">
-      <img class="block2__profile" src="icons/profile.svg" alt="Иконка профиля">
-     </div>
-    </div>
-  <div class="contacts">
-    <p class="mail"><a href="mailto:mail@cps.com">mail@cps.com</a></p>
-    <p class="phone"><a href="tel:8-800-890-8900">8 800 890 8900</a></p>
-    </div>
-    <div class="languages">
-      <a href="#">RU</a>
-      <a href="#">EG</a>
-      <a href="#">CH</a>
-    </div>
-  </div>
-</footer>
 </div>
-<script src="js.js"></script>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
