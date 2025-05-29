@@ -31,11 +31,11 @@ button.addEventListener('click', function() {
   if (button.textContent === 'Скрыть') {
     button.textContent = 'Показать все';
     container.style.display = 'none';
-    image.src = '../icons/expand_up.svg';
+    image.src = 'icons/expand_up.svg';
   } else {
     button.textContent = 'Скрыть';
     container.style.display = 'flex';
-    image.src = '../icons/expand_down.svg';
+    image.src = 'icons/expand_down.svg';
   }
 });
 
