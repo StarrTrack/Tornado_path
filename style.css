@@ -112,6 +112,9 @@ body{
   .container_1__part_2{
     display: none;
   }
+  .one__block1{
+    padding: 16px 0 16px 24px;
+  }
 }
 
 
@@ -124,5 +127,8 @@ body{
   }
   .container_1__part_2{
     display: none;
+  }
+  .one__block1{
+    padding: 16px 0 16px 32px;
   }
 }
