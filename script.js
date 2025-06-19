@@ -1,5 +1,5 @@
-import './reset.css';
-import './style/style.scss';
+import 'reset.css';
+import 'style/style.scss';
 import 'core-js/stable/object/to-string';
 import 'core-js/stable/dom-collections';
 
