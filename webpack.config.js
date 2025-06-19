@@ -174,7 +174,7 @@ module.exports = (env, argv) => {
       filename: '[name].[contenthash].js',
       chunkFilename: '[name].[contenthash].chunk.js',
       clean: true,
-      publicPath: '/',
+      publicPath: '/Tornado_path/',
     },
     plugins: [
       ...sharedConfig.plugins,
@@ -191,12 +191,10 @@ module.exports = (env, argv) => {
         {
           test: /\.(scss|sass|css)$/,
           use: [
-            MiniCssExtractPlugin.loader,
             {
-              loader: 'css-loader',
+              loader: MiniCssExtractPlugin.loader,
               options: {
-                sourceMap: true,
-                importLoaders: 2,
+                publicPath: '/Tornado_path/css/', // <--- ЭТО ДОБАВЛЯЕМ
               },
             },
             {
