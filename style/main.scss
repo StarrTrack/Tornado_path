@@ -1,9 +1,0 @@
-@use 'mixins' as *;
-//MAIN
-.main {
-  min-height: 100vh;
-  @include desktop {
-    margin-left: 320px;
-  }
-}
-
