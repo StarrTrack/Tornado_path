@@ -1,9 +1,23 @@
 {
   "printWidth": 100,
+  "tabWidth": 2,
+  "useTabs": false,
+  "semi": true,
   "singleQuote": true,
-  "tabWidth": 4,
+  "quoteProps": "consistent",
+  "jsxSingleQuote": true,
   "trailingComma": "all",
-  "arrowParens": "always",
+  "bracketSpacing": true,
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "always",
   "endOfLine": "lf",
-  "semi": true
+  "overrides": [
+    {
+      "files": "*.{css,scss,json,yml}",
+      "options": {
+        "singleQuote": false
+      }
+    }
+  ]
 }
