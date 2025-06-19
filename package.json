@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Frontend project with webpack, scss, babel and linting",
   "main": "script.js",
-  "homepage": "https://starrtrack.github.io/Tornado_path/",
   "scripts": {
     "dev": "webpack --mode development",
     "start": "webpack serve --mode development --open",
