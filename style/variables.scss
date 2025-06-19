@@ -1,0 +1,41 @@
+//Variables
+/* Цвета */
+:root {
+  --color-primary: #ff3e79;
+  --color-primary-dark: #e91e63;
+
+  --color-secondary: #41f6d7;
+  --color-secondary-light: #7cfce1;
+  --color-secondary-dark: #1de9b6;
+
+
+  --color-text-primary: #1b1c21;
+  --color-text-secondary: #7e7e82;
+  --color-text-light: #b5b6bc;
+
+  --color-bg-primary: #f8f8f8;
+  --color-bg-secondary: #ffffff;
+  --color-bg-dark: #1b1c21;
+
+  --color-border: #eaeaea;
+  --color-border-light: #f2f2f2;
+
+  /* Размеры */
+  --font-size-small: 14px;
+  --font-size-base: 16px;
+  --font-size-large: 18px;
+  --font-size-xl: 24px;
+  --font-size-xxl: 28px;
+
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  --line-height-tight: 1.2;
+  --line-height-base: 1.5;
+  --line-height-loose: 1.8;
+
+  --border-radius-small: 6px;
+  --border-radius-base: 8px;
+}
+
